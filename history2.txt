@@ -1,0 +1,147 @@
+    1  git version
+    2  pwd
+    3  ls
+    4  ls -l
+    5  mkdir projet1
+    6  ls -l
+    7  cd projet1
+    8  ls
+    9  cd ..
+   10  echo test > fichier.txt
+   11  ls
+   12  cat fichier.txt
+   13  git config --global
+   14  git config --global user.name "Hamza Ladid"
+   15  git config --global user.email "ladidhamza@gmail.com"
+   16  git config --global
+   17  git config --global --list
+   18  ls
+   19  cd projet1
+   20  git init
+   21  git status
+   22  touch index.html
+   23  git status
+   24  git add index.html
+   25  git status
+   26  git commit -m "Creation - index.html"
+   27  git status
+   28  git status
+   29  git diff index.html
+   30  git status
+   31  git add index.html
+   32  git status
+   33  git commit -m "modification - index.html"
+   34  git status
+   35  git diff index.html
+   36  git diff --cached index.html
+   37  git status
+   38  git add index.html
+   39  git diff --cached index.html
+   40  git commit -m "modification2 -index.html"
+   41  git status
+   42  git log
+   43  touch style.css
+   44  git status
+   45  git add style.css
+   46  git commit -m"ajout style.css"
+   47  git status
+   48  git log
+   49  git checkoutckout 10fc55b29c492c22ba6e69cc7decd4fe51d1624d
+   50  git checkout 10fc55b29c492c22ba6e69cc7decd4fe51d1624d
+   51  git checkout master
+   52  git status
+   53  git add -m "modification - style.css" style.css
+   54  git add  style.css
+   55  git commit -m "modification style.css" 
+   56  git status
+   57  git add .
+   58  status
+   59  git status
+   60  git commit -m"modification css et html" style.css
+   61  git commit -m"modification css et html" index.html
+   62  git status
+   63  cd ..
+   64  git clone https://github.com/hamza-ld7/projet1.git
+   65  git clonee https://github.com/hamza-ld7/projettest.git
+   66  git clone https://github.com/hamza-ld7/projettest.git
+   67  cd projettest
+   68  ls
+   69  get log
+   70  get log
+   71  git log
+   72  touch index.html
+   73  git status
+   74  git add index.html
+   75  git commit -m"creation - index.html"
+   76  git status
+   77  git remote -v
+   78  cd ..
+   79  echo history > history.txt
+   80  history > history.txt
+   81  ls
+   82  cd projettest
+   83  git push origin main
+   84  cd ..
+   85  ls
+   86  history > history.txt
+   87  cd projettest
+   88  ls
+   89  touch test.html
+   90  git init
+   91  git status
+   92  git add test.html
+   93  git commit -m "ajout du test.html"
+   94  git branch -M main
+   95  git remote add origin
+   96  git remote add origin https://github.com/hamza-ld7/test.git
+   97  git push -u origin main
+   98  git pull origin main 
+   99  git status
+  100* git push -u ori
+  101  git status
+  102  git pull 
+  103  git push -u origin main
+  104  git pull origin main --allow-unrelated-histories
+  105  git push -u origin main
+  106  cd ..
+  107  ls
+  108  git clone https://github.com/hamza-ld7/Gestion_TicketsEmad.git
+  109  git pull origin main
+  110  cls
+  111  ls
+  112  cd Gestion_TicketsEmad
+  113  ls
+  114  touch test.txt
+  115  ls
+  116  git add .
+  117  git commit -m "test"
+  118  git push origin main
+  119  git push -u origin main
+  120  cd ..
+  121  git pull https://github.com/emaddaem/Gestion_Tickets
+  122  history >history2.txt
+  123  ls
+  124  git config --global alias.ch checkout
+  125  co main
+  126  ch main
+  127  ls
+  128  cd test
+  129  ch main
+  130  git ch main
+  131  git config --unset alias.ch
+  132  git config --global --list
+  133  git config --global --unset alias.ch
+  134  git config --global --list
+  135  git config --global alias.ch 'checkout -m'
+  136  git config --global --unset alias.ch
+  137  git config --global --list
+  138  git config --global alias.cm 'commit -m'
+  139  ls
+  140  touch style.css
+  141  git add .
+  142  git cm "hello"
+  143  git log
+  144  git config --global --unset alias.cm
+  145  git config --list
+  146  git config --global --list
+  147  history >history2.txt
