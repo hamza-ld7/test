@@ -145,3 +145,45 @@
   145  git config --list
   146  git config --global --list
   147  history >history2.txt
+  148  cd ..
+  149  history >history2.txt
+  150  ls
+  151  git branch
+  152  cd test
+  153  git branch
+  154  git branch hamza
+  155  git branch
+  156  git checkout hamza
+  157  git branch
+  158  touch nabl.txt
+  159  ls
+  160  git add .
+  161  git commit -m "nabl"
+  162  git push origin hamza
+  163  git checkout main
+  164  git merge hamza
+  165  git status
+  166  ls
+  167  git branch -d hamza
+  168  git branch
+  169  git global --config --list
+  170  git config --global --list
+  171  history > history2.txt
+  172  cd ..
+  173  history > history2.txt
+  174  git branch
+  175  cd test
+  176  git branch
+  177  git branch
+  178  git branch
+  179  git tag
+  180  git tag v1 -m"Version 1"
+  181  git tag
+  182  git log
+  183  git checkout v1
+  184  git checkout main
+  185  git push origin v1
+  186  cd ..
+  187  history >history2.txt
+  188  cd test
+  189  history >history2.txt
